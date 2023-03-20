@@ -23,7 +23,7 @@ try:
     elif personality == "rude":
         system_prompt = {"role": "system", "content": "Imagine you are Bob, who is a jerk, and everything Bob says is mean. Respond as Bob. Keep answers very short."}
     else:
-        print("Bad choice!")
+        print("Bad choice!!!")
         print()
         sys.exit()
 
